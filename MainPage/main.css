@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar {
+    z-index: 10;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    opacity: 0.6;
+    background-color: black;
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+.navbar_link {
+    font-family: Amatic SC, sans-serif;
+    font-size: 35px;
+    color: white;
+    padding: 8px 16px;
+    display: block;
+
+}
+
+.navbar_link:hover {
+    color: #000;
+    background-color: #bebaba;
+}
+
+.navbar_left {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar_l {
+    /* Add margin to separate the search icon from the links */
+    margin-left: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.navbar_l:hover {
+    opacity: 1;
+    color: #000;
+    background-color: #bebaba;
+}
+
+.img_home {
+    /* align-items: center; */
+    background-image: url('https://preview.colorlib.com/theme/eventcon/img/banner/banner.png');
+    height: 100vh;
+    transition: .8s;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img_home:hover {
+    background-image: url(https://divinepartyconcepts.com/wp-content/uploads/2021/01/Disco-balls-Disco-ball-with-bright-rays.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_center {
+    margin-bottom: 10vh;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.date_up {
+    color: rgb(218, 35, 35) !important;
+}
+
+.main_paragraph {
+    margin-bottom: 10vh;
+    margin-top: 20px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+}
+
+.main_name {
+    font-size: 15vh;
+    font-family: 'Rubik Wet Paint', cursive;
+    line-height: 1;
+    margin-top: 55px;
+    margin-bottom: 40px;
+
+}
+
+.date_up {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Tektur', cursive;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.performer {
+    padding: 100px 0px 63px;
+    background-color: #000;
+    height: 1480px;
+}
+
+.header {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 50px;
+    height: 10vh;
+    width: 50px;
+}
+.performer_image{
+    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+    will-change: transform; 
+}
+.performer_imges{
+    justify-content: center;
+    display: flex;
+    padding: 100px;
+    gap: 90px;
+    text-align: center;
+}
+.performer_image img{
+    width: 300px;
+}
+.performer_img_text{
+ color: white;
+ font-family: "Muli", sans-serif;
+ margin-top: 35px;
+ line-height: 1.5;
+ text-align: left;
+ margin-bottom: 35px;
+ font-family: 'Alumni Sans Inline One';
+ font-size: 22px;
+}
+.red_text{
+    color: red !important;
+    font-size: 25px !important;
+}
+.container{
+    background-color: #000;
+    height: 1000px;
+    padding: 8px;
+}
+.second-h{
+    color: white;
+    font-family: "Anton", sans-serif;
+    margin-top: 55px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 55px;
+    padding-bottom: 7px;
+}
+.second-p{
+    color: rgb(185, 177, 177);
+    line-height: 1.5;
+    text-align: justify;
+    width: 650px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: "Muli", sans-serif;
+}
+.about_items{
+    align-items: center!important;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.items_img{
+    padding-top: 55px;
+    flex: 0 0 58.333333%;
+    padding-right: 15px;
+    padding-left: 35px;
+    position: relative;
+    font-size: 10px;
+    display: flex;
+}
+.third-h{
+    text-transform: uppercase !important;
+    font-size: 40px;
+    color: red;
+
+}
+.third-p{
+color: white;
+}

@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar_left">
+            <a href="#" class="navbar_link">HOME</a>
+            <a href="#" class="navbar_link">PERFORMER</a>
+            <a href="#" class="navbar_link">PAGES</a>
+            <a href="#" class="navbar_link">CONTACT
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+        
+            <a class="navbar_l">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        
+    </div>
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html> 
+
+
+
+ders 8
+
+https://preview.colorlib.com/theme/eventcon/img/about/about.png
+
+https://preview.colorlib.com/theme/eventcon/img/banner/banner.png
+
+https://preview.colorlib.com/theme/eventcon/img/performer/1.png
+https://preview.colorlib.com/theme/eventcon/img/performer/2.png
+https://preview.colorlib.com/theme/eventcon/img/performer/3.png
+https://preview.colorlib.com/theme/eventcon/img/performer/4.png
+
+
+url('https://i.pinimg.com/originals/a0/30/a3/a030a3baf60e43735b793db5fe313344.png')
+
+
+
+FLOAT IN
+
+kecid
